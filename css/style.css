@@ -1,0 +1,276 @@
+/* Global CSS */
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Header Section CSS*/
+
+header{
+	width: 100%;
+	background-color: #f6f9f9;
+	float: left;
+	padding: 20px 0px;
+}
+
+/* Banner Section CSS */
+.banner{
+	width: 100%;
+	background: url(../img/banner.png);
+	float: left;
+	background-size: cover;
+}
+
+.banner h1{
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 220px;
+}
+.banner-line{
+	border: 1px solid #15a4fa;
+	width: 40%;
+	margin: 10px auto 15px;;
+}
+.banner p{
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+.btn-primary{
+	border: 1px solid #15A4fa;
+	color: #fff;
+    background: transparent;
+    padding: 10px 25px;
+    font-size: 16px;
+    display: block;
+    margin: 75px auto;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.btn-primary:hover{
+	background-color: #15A4fa;
+	cursor:pointer; 
+	box-shadow: 1px 2px 3px #161616;
+
+}
+.fa-angle-down{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin: 0px 0px 50px;
+	-webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.fa-angle-down:hover{
+	color: #15A4fa;
+	cursor: pointer;
+	padding-top: 7px;
+}
+
+/* Features Section CSS */
+
+.Features{
+	width: 100%;
+	background-color: #f6f9f9;
+	float: left;
+	padding: 80px 0px;
+}
+
+.Features h1{
+	text-align: center;
+	color: #2d3950;
+	font-size: 32px;
+	padding-bottom: 15px;
+}
+
+.Features p{
+	line-height: 30px;
+    padding: 0px 150px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+
+/* Features Icon Section CSS */
+
+.features-icon{
+	width: 100%;
+	float: left;
+	background-color: #fff;
+	padding: 50px 0px;
+}
+
+.icon{
+	width: 33.33%;
+	float: left;
+}
+.features-icon h3{
+	text-align: center;
+	padding: 10px 0px;
+	color: #2d3950;
+	font-size: 28px;
+
+}
+
+.features-icon p{
+	font-size: 16px;
+	color: #999999;
+	padding: 0px 50px;
+	text-align: center;
+}
+
+.icon img{
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+.icon img:hover{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	cursor: pointer;
+}
+
+/* Portfolio Section CSS */
+
+.portfolio{
+	width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+    padding-top: 70px;
+    padding-bottom: 70px; 
+}
+.portfolio h1{
+	text-align: center;
+	color: #2d3950;
+	font-size: 32px;
+}
+.portfolio p{
+	text-align: center;
+	color: #999999;
+	padding: 15px 0px;
+}
+
+.work{
+	width: 33.33%;
+    float: left;
+    max-height: 270px;
+    overflow: hidden;
+    padding: 15px;
+}
+.work img{
+	display: block;
+    max-width: 100%;
+    width: 100%;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.work img:hover{
+	transform: scale(1.1, 1.1);	
+}
+
+/* Stay With Us Section CSS*/
+
+.stay-with-us{
+	background: url(../img/staywithus.png);
+	width: 100%;
+	float: left;
+	padding: 80px;
+}
+.stay-with-us h1{
+	color: #fff;
+	text-align: center;
+	font-size: 32px;
+}
+.stay-with-us p{
+	text-align: center;
+	color: #999999;
+	padding-top: 10px;
+}
+.form{
+	width: 40%;
+    margin: 50px auto;
+}
+.input{
+	width: 100%;
+    padding: 10px;
+    background: transparent;
+    margin: 4px 0px;
+    border: 1px solid #999999;
+    font-size: 13px;
+}
+.message{
+	width: 100%;
+    background: transparent;
+    margin: 4px 0px;
+    border: 1px solid #999999;
+    font-size: 13px;
+    padding: 15px 10px 130px;
+
+}
+
+.send-btn{
+	background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 9px 19px;
+    font-size: 14px;
+    margin: 4px 385px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.send-btn:hover{
+	background: #15a4fa;
+	cursor: pointer;
+	box-shadow: 1px 2px 3px #161616;
+}
+
+.footer{
+	width: 100%;
+    float: left;
+}
+
+.footer p{
+	float: left;
+    padding: 24px 0px;
+    font-size: 14px;
+
+}
+.footericon{
+	float:right;
+	padding: 10px 3px;
+}
+
+.footericon:hover{
+	transform: scale(1.1, 1.1);
+
+}
